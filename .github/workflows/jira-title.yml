@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     name: JIRA Association
     steps:
-      - name: Check for JIRA ISSUE Please
+      - name: Check for JIRA ISSUE
         id: check
         uses: supplypike/jira-pr-link-action@v1
         with:
